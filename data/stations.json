@@ -1,0 +1,36 @@
+{
+  "stations": {
+    "BRC": {"name": "Vadodara Junction", "city": "Vadodara"},
+    "ADI": {"name": "Ahmedabad Junction", "city": "Ahmedabad"},
+    "ST":  {"name": "Surat", "city": "Surat"},
+    "MMCT":{"name": "Mumbai Central", "city": "Mumbai"},
+    "RTM": {"name": "Ratlam Junction", "city": "Ratlam"},
+    "JP":  {"name": "Jaipur Junction", "city": "Jaipur"},
+    "KOTA":{"name": "Kota Junction", "city": "Kota"},
+    "NDLS":{"name": "New Delhi", "city": "Delhi"},
+    "BPL": {"name": "Bhopal Junction", "city": "Bhopal"},
+    "NGP": {"name": "Nagpur Junction", "city": "Nagpur"},
+    "PUNE":{"name": "Pune Junction", "city": "Pune"},
+    "SC":  {"name": "Secunderabad Junction", "city": "Hyderabad"}
+  },
+  "routes": [
+    {"from": "ADI", "to": "BRC",  "distance": 111, "time": 95,  "cost": 140},
+    {"from": "ADI", "to": "JP",   "distance": 625, "time": 540, "cost": 480},
+    {"from": "ADI", "to": "RTM",  "distance": 350, "time": 310, "cost": 290},
+    {"from": "BRC", "to": "ST",   "distance": 130, "time": 100, "cost": 150},
+    {"from": "BRC", "to": "RTM",  "distance": 261, "time": 215, "cost": 230},
+    {"from": "ST",  "to": "MMCT", "distance": 263, "time": 195, "cost": 240},
+    {"from": "ST",  "to": "NGP",  "distance": 745, "time": 680, "cost": 520},
+    {"from": "MMCT","to": "PUNE", "distance": 192, "time": 185, "cost": 180},
+    {"from": "RTM", "to": "KOTA", "distance": 267, "time": 220, "cost": 235},
+    {"from": "RTM", "to": "BPL",  "distance": 282, "time": 250, "cost": 250},
+    {"from": "JP",  "to": "KOTA", "distance": 240, "time": 210, "cost": 210},
+    {"from": "JP",  "to": "NDLS", "distance": 308, "time": 265, "cost": 285},
+    {"from": "KOTA","to": "NDLS", "distance": 465, "time": 330, "cost": 410},
+    {"from": "BPL", "to": "NDLS", "distance": 700, "time": 490, "cost": 620},
+    {"from": "BPL", "to": "NGP",  "distance": 390, "time": 340, "cost": 320},
+    {"from": "PUNE","to": "NGP",  "distance": 725, "time": 690, "cost": 510},
+    {"from": "PUNE","to": "SC",   "distance": 597, "time": 520, "cost": 440},
+    {"from": "NGP", "to": "SC",   "distance": 578, "time": 500, "cost": 430}
+  ]
+}
